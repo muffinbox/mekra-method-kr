@@ -2,6 +2,8 @@
 
 OKF의 변화와 실제 활용 방식을 연구하고, 재사용 가능한 운영 지식으로 정리하는 한국어 공개 저장소입니다.
 
+> English version: [muffinbox/okf-lab](https://github.com/muffinbox/okf-lab)
+
 > 예시와 적용 맥락은 특정 개인·조직을 식별하지 않도록 일반화해 서술합니다.
 
 > 이 저장소는 OKF 명세의 복사본이나 모든 프로젝트가 따라야 할 프레임워크가 아닙니다.  
