@@ -20,4 +20,4 @@ repo/
 - 코드 변경이 지식의 의미나 판단 기준을 바꾸면 관련 OKF도 갱신합니다.
 - 프로젝트 하나만 clone해도 운영에 필요한 최소 원칙을 이해할 수 있게 합니다. okf-lab은 참고 자료이지 실행 시 필수 외부 의존성이 아닙니다.
 
-시작 지침은 [`templates/AGENTS.md`](../../templates/AGENTS.md)를 복사한 뒤 프로젝트 고유 규칙만 남겨 사용합니다.
+시작 지침은 [`templates/AGENTS.md.template`](../../templates/AGENTS.md.template)를 복사한 뒤 프로젝트 고유 규칙만 남겨 사용합니다.
