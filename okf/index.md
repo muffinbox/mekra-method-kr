@@ -1,0 +1,25 @@
+---
+okf_version: "0.2"
+---
+
+# OKF 연구·활용 지식
+
+이 번들은 OKF 활용 과정에서 채택한 운영 철학과 설계 판단을 내재화한다. 공식 명세 자체와 우리 해석을 구분하며, 공식 형식의 기준점은 [버전 문서](../versions/current.md)에 둔다.
+
+## 운영 철학
+
+- [운영 원칙](operating-principles.md) - 정본의 책임과 필요한 맥락을 함께 유지한다.
+- [자율 판단](agent-autonomy.md) - OKF의 자연어 맥락과 유연한 관계 표현을 활용하기 위해 자율 판단을 우선한다.
+- [지식 내재화](knowledge-internalization.md) - 새로운 지식의 의미와 영향을 관련 개념에 반영한다.
+
+## 재사용 패턴과 경계
+
+- [정본과 맥락](source-of-truth.md) - 변경 책임을 단일화하면서 필요한 재서술을 유지한다.
+- [맥락 파급](context-propagation.md) - 의미가 달라지는 개념을 함께 갱신한다.
+- [원자료와 파생물](external-sources.md) - 원자료·추출물·내재화된 지식의 책임을 나눈다.
+- [대량 자료의 지식 구성](large-corpus.md) - 핵심 지식과 요약·탐색 경로를 조합한다.
+
+## 실제 적용
+
+- [프로필](../profiles/README.md) - 사용 방식별 구성과 적용 지침.
+- [템플릿](../templates/README.md) - 복사해서 조정하는 출발점.
