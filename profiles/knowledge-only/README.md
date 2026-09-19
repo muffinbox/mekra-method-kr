@@ -21,4 +21,6 @@ repo/
 
 텍스트 추출물이 반복 사용되거나 재생성 비용이 크다면 `extracted/`를 추가할 수 있습니다. 추출물은 원자료의 정본이 아니라 파생물로 취급합니다.
 
+적용 후에는 새 원자료의 보존 위치와 직접 작성한 지식의 위치를 구분해 안내합니다. 예를 들어 원자료는 `raw/`, 정리한 개념은 `okf/`에 둘 수 있으며, 기존 작성 위치가 있다면 유지할 수도 있습니다. 실제 선택과 “새 자료를 OKF에 반영해줘” 같은 반영 요청 방법을 대상 README에 남깁니다.
+
 관련 pattern: [External sources](../../okf/external-sources.md), [Source of truth](../../okf/source-of-truth.md)
