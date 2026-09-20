@@ -83,3 +83,7 @@ facet은 preset이나 기본값이 아니라 판단 렌즈입니다. 템플릿 �
 - 확인일과 검증한 명세 기준점: [`versions/current.md`](versions/current.md)
 
 공개판의 `main`은 최신 채택 내용이며, 릴리스는 비교·재현을 위한 고정 기준점입니다. lab 릴리스는 `okf-<명세 버전>-lab-<순번>`으로 구분합니다. 이름의 의미와 실제 적용 커밋을 남기는 방법은 [버전 안내](versions/README.md)에 있습니다.
+
+## 라이선스
+
+별도 표시가 없는 파일은 [Apache-2.0](LICENSE)을 따릅니다. `templates/` 전체는 README를 포함해 [CC0-1.0](templates/LICENSE)으로 제공하며, 복사·수정한 템플릿에 okf-lab 출처를 남길 의무는 없습니다. 자세한 범위는 [배포 원칙](okf/distribution.md#라이선스-범위)에 있습니다.

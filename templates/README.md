@@ -4,6 +4,8 @@
 
 실제 저장소에 복사한 뒤 불필요한 항목을 지우고 고유 문맥을 추가하는 최소 템플릿입니다.
 
+이 README를 포함한 `templates/` 아래의 모든 파일은 [CC0-1.0](LICENSE)으로 제공합니다. 복사·수정·통합할 때 okf-lab 출처 표시나 라이선스 사본 유지를 이용 조건으로 요구하지 않습니다. 적용 기준을 기록할지는 사용자가 선택합니다. CC0는 제3자의 권리나 상표·특허 등의 권리를 없애지 않습니다.
+
 - [`AGENTS.md.template`](AGENTS.md.template): 루트 `AGENTS.md`에 삽입하는 **OKF 지식 운영 절과 선택적 저장소 운영 선호 절** 템플릿
 - [`okf/index.md`](okf/index.md): OKF 번들 루트 예시
 - [`okf/concept.md`](okf/concept.md): 최소 개념 문서 예시
