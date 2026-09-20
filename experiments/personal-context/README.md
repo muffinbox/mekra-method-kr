@@ -1,0 +1,45 @@
+# Personal context experiment
+
+## 질문
+
+개인 맥락을 기존 [knowledge-only profile](../../profiles/knowledge-only/README.md)과 일반 OKF 원칙으로 운영했을 때, 별도의 `personal-context` profile이 실제로 필요한가?
+
+## 현재 상태
+
+아직 실제 개인 자료를 투입하지 않는다. 먼저 최소한의 저장소 구조만 준비하고, 이후 사용할 수 있는 실제 자료가 생겼을 때 운영상의 마찰과 반복되는 선택을 관찰한다.
+
+이 실험은 profile을 미리 정당화하기 위한 것이 아니다. 기존 profile로 충분하다면 별도 profile을 만들지 않는 결과도 허용한다.
+
+## 임시 scaffold
+
+[`scaffold/`](scaffold/)는 실제 개인 저장소를 흉내 낸 최소 구조다.
+
+```text
+scaffold/
+├─ okf/
+│  └─ index.md
+├─ sources/
+│  └─ README.md
+├─ README.md
+└─ AGENTS.md
+```
+
+이 구조는 출발점일 뿐이며, 실제 자료가 들어오기 전에는 `people/`, `relationships/`, `state/`, `patterns/` 같은 하위 구조를 미리 만들지 않는다.
+
+## 관찰할 것
+
+실제 자료가 생기면 다음을 기록한다.
+
+- 어떤 자료를 원자료로 남기고 어떤 맥락을 OKF에 내재화했는가
+- 현재 상태와 역사적 맥락을 함께 유지할 필요가 실제로 얼마나 자주 생기는가
+- 자기 진술·관찰·추론의 차이를 별도 형식 없이도 충분히 표현할 수 있는가
+- 사람에 대한 정보와 관계에 대한 정보가 실제 운영에서 분리될 필요가 있는가
+- 내부 참조와 외부 공개의 경계가 반복적으로 문제되는가
+- 삭제·철회가 기존 맥락에 어떤 재검토를 요구하는가
+- 기존 knowledge-only profile에서 설명하기 어려운 선택이 반복되는가
+
+## 결과 기록
+
+관찰은 먼저 [연구 노트](../../notes/personal-context-knowledge-properties.md)에 누적한다.
+
+재현 가능한 운영상의 이점이나 반복되는 실패가 확인되면 관련 일반 개념을 `okf/`에 반영한다. 여러 일반 개념의 조합이 개인 맥락에서 반복적으로 필요하다고 확인될 때 `personal-context` profile 승격을 검토한다.
