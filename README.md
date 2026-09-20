@@ -1,5 +1,7 @@
 # okf-lab-kr
 
+OKF(Open Knowledge Format)는 사람과 에이전트가 함께 읽고 교환할 수 있도록 지식을 표현하는 형식입니다.
+
 OKF의 변화와 실제 활용 방식을 연구하고, 에이전트가 대상 저장소에 적용할 수 있는 운영 지식으로 정리하는 한국어 공개 저장소입니다.
 
 > English version: [muffinbox/okf-lab](https://github.com/muffinbox/okf-lab)
