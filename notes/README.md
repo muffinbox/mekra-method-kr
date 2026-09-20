@@ -4,7 +4,7 @@
 
 - 하나의 중심 질문이나 생각을 한 문서에 둡니다.
 - 외부 사실을 적을 때는 출처와 확인일을 남깁니다.
-- 채택된 결론은 `okf/`의 관련 개념이나 profile·version 문서로 옮기고, note에는 결정 결과나 연결만 남깁니다.
+- 채택된 결론은 `okf/`의 관련 개념이나 facet·version 문서로 옮기고, note에는 결정 결과나 연결만 남깁니다.
 
 notes의 내용은 현재 운영 지침으로 간주하지 않습니다.
 
@@ -13,4 +13,4 @@ notes의 내용은 현재 운영 지침으로 간주하지 않습니다.
 ## 진행 중인 탐구
 
 - [Personal context에서 드러난 지식 특성](personal-context-knowledge-properties.md) - 개인 맥락을 통해 정본 부재, 시간적 유효성, 공개 경계, 철회·삭제 파급을 탐색한다.
-- [Profile 관점과 조합](profile-perspectives.md) - profile이 서로 다른 관점을 나타내고 조합될 수 있다는 가설과 구조화 경계를 탐색한다.
+- [Facet 관점과 경계](facet-perspectives.md) - facet이 일반 OKF 지식과 겹치지 않으면서 실제 판단 가치를 주는 경계를 탐색한다.

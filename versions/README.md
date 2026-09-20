@@ -1,6 +1,6 @@
 # Versions
 
-upstream OKF의 변화를 추적하고 이 저장소의 원칙·pattern·profile에 미치는 영향을 기록합니다.
+upstream OKF의 변화를 추적하고 이 저장소의 원칙·pattern·facet에 미치는 영향을 기록합니다.
 
 - [`current.md`](current.md): 현재 권장 기준과 확인한 upstream 기준점
 - [`migrations/`](migrations/): 버전 간 실제 전환이 필요한 변경

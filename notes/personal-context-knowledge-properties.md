@@ -1,14 +1,14 @@
 # Personal context에서 드러난 지식 특성
 
-이 노트는 `personal-context`를 독립 프로필로 채택하기 전에, 개인 맥락을 다루면서 기존 OKF 운영 원칙이 어디에서 충분하지 않은지 탐색하기 위한 작업 문서다.
+이 노트는 `personal-context`를 독립 facet으로 채택하기 전에, 개인 맥락을 다루면서 기존 OKF 운영 원칙이 어디에서 충분하지 않은지 탐색하기 위한 작업 문서다.
 
-현재 단계에서는 아래 내용을 확정된 원칙이나 형식적 분류 체계로 취급하지 않는다. 실제 개인 맥락 저장소를 운영하면서 반복되는 요구와 실패를 관찰한 뒤, 일반화 가능한 내용만 `okf/` 또는 profile로 승격한다.
+현재 단계에서는 아래 내용을 확정된 원칙이나 형식적 분류 체계로 취급하지 않는다. 실제 개인 맥락 저장소를 운영하면서 반복되는 요구와 실패를 관찰한 뒤, 일반화 가능한 내용만 `okf/` 또는 facet으로 승격한다.
 
 ## 출발 가설
 
 개인 맥락은 단순한 개인 정보 목록보다, 한 사람을 둘러싼 경험·관계·상태·선호·행동과 그 변화가 서로 연결된 지식망에 가깝다.
 
-같은 지식망은 자기 이해와 개인화된 지원이라는 서로 다른 관점에서 읽힐 수 있다. 현재는 이 둘을 별도 프로필이나 별도 지식베이스로 나누지 않는다.
+같은 지식망은 자기 이해와 개인화된 지원이라는 서로 다른 관점에서 읽힐 수 있다. 현재는 이 둘을 별도 facet이나 별도 지식베이스로 나누지 않는다.
 
 ## 탐색할 문제
 
@@ -45,17 +45,17 @@
 - Observation / Self-Stated / Hypothesis / Preference 같은 고정 분류
 - `state/`, `patterns/`, `people/`, `relationships/` 등의 강제 디렉터리 구조
 - 반복 횟수만으로 지식 승격 여부를 결정하는 프로토콜
-- `personal-context` 독립 profile
+- `personal-context` 독립 facet
 
 실제 사용에서 이런 구분이 반복적으로 필요해지면 그때 구조화한다.
 
 ## 다음 검증
 
-[personal-context 실험](../experiments/personal-context/README.md)에서 기존 knowledge-only 접근을 최소 구조로 적용한다.
+[personal-context 실험](../experiments/personal-context/README.md)에서 [Knowledge-centered facet](../facets/knowledge-centered.md)과 일반 OKF 원칙을 최소 구조에 적용한다.
 
 검증하고 싶은 핵심 질문은 다음과 같다.
 
-1. 기존 knowledge-only profile과 일반 OKF 원칙만으로 개인 맥락을 충분히 운영할 수 있는가?
+1. 기존 Knowledge-centered facet과 일반 OKF 원칙만으로 개인 맥락을 충분히 운영할 수 있는가?
 2. 개인 맥락에서만 반복되는 운영 선택이 실제로 존재하는가?
 3. 위 문제 중 어떤 것이 개인 특수성이 아니라 일반 OKF 개념으로 승격할 가치가 있는가?
 4. 처음에는 필요해 보였지만 실제 사용에서는 불필요했던 구조나 분류는 무엇인가?

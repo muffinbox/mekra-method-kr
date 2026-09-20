@@ -21,7 +21,7 @@ okf_version: "0.2"
 - [원자료와 파생물](external-sources.md) - 원자료·추출물·내재화된 지식의 책임을 나눈다.
 - [정보 접근과 외부 공개의 경계](disclosure-boundary.md) - 내부 판단에 사용할 수 있는 정보와 외부 공개·전송 권한을 구분한다.
 - [대량 자료의 지식 구성](large-corpus.md) - 핵심 지식과 요약·탐색 경로를 조합한다.
-- [프로필의 조합과 경계](profile-composition.md) - 프로필을 상호배타적 분류가 아닌 조합 가능한 적용 관점으로 사용한다.
+- [Facet의 역할과 경계](facet-boundaries.md) - facet을 대상의 성질을 읽는 얇은 관점으로 사용하고 preset이나 중복 지식 계층으로 만들지 않는다.
 
 ## 실제 적용
 
@@ -29,5 +29,5 @@ okf_version: "0.2"
 - [적용 경험의 환류](feedback.md) - 재사용할 관찰을 선별해 연구와 운영 지식의 개선으로 연결한다.
 - [연구와 다국어 배포의 동기화](distribution.md) - 공개 범위와 공통 지식의 정본을 유지하며 언어별 배포판을 갱신한다.
 - [적용 안내](../APPLICATION.md) - 대상 탐색부터 문답, 반영과 완료 후 사용 안내까지의 기본 경로.
-- [프로필](../profiles/README.md) - 사용 방식별 구성과 적용 지침.
+- [Facet](../facets/README.md) - 대상의 중요한 성질에서 관련 판단을 찾는 얇은 관점.
 - [템플릿](../templates/README.md) - 복사해서 조정하는 출발점.
