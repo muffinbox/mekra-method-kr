@@ -74,6 +74,5 @@ okf-lab은 **정의와 변경 책임은 명확한 정본에 집중하고, 이해
 
 ## 현재 기준
 
-- OKF: **v0.2**
-- 확인일: **2026-09-18**
-- 상세 기준점: [`versions/current.md`](versions/current.md)
+- 권장 기준: **OKF v0.2**
+- 확인일과 검증한 명세 기준점: [`versions/current.md`](versions/current.md)

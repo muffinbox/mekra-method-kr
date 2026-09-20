@@ -13,3 +13,4 @@ notes의 내용은 현재 운영 지침으로 간주하지 않습니다.
 ## 진행 중인 탐구
 
 - [Personal context에서 드러난 지식 특성](personal-context-knowledge-properties.md) - 개인 맥락을 통해 정본 부재, 시간적 유효성, 공개 경계, 철회·삭제 파급을 탐색한다.
+- [Profile 관점과 조합](profile-perspectives.md) - profile이 서로 다른 관점을 나타내고 조합될 수 있다는 가설과 구조화 경계를 탐색한다.

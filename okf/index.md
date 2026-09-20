@@ -19,7 +19,9 @@ okf_version: "0.2"
 - [정본과 맥락](source-of-truth.md) - 변경 책임을 단일화하면서 필요한 재서술을 유지한다.
 - [맥락 파급](context-propagation.md) - 의미가 달라지는 개념을 함께 갱신한다.
 - [원자료와 파생물](external-sources.md) - 원자료·추출물·내재화된 지식의 책임을 나눈다.
+- [정보 접근과 외부 공개의 경계](disclosure-boundary.md) - 내부 판단에 사용할 수 있는 정보와 외부 공개·전송 권한을 구분한다.
 - [대량 자료의 지식 구성](large-corpus.md) - 핵심 지식과 요약·탐색 경로를 조합한다.
+- [프로필의 조합과 경계](profile-composition.md) - 프로필을 상호배타적 분류가 아닌 조합 가능한 적용 관점으로 사용한다.
 
 ## 실제 적용
 
