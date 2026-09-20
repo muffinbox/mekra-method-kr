@@ -32,11 +32,11 @@ okf-lab은 **정의와 변경 책임은 명확한 정본에 집중하고, 이해
 | 위치 | 역할 |
 | --- | --- |
 | [`APPLICATION.md`](APPLICATION.md) | 대상 탐색, 적용 판단과 문답, 반영 및 완료 후 사용 안내 |
-| [`FEEDBACK.md`](FEEDBACK.md) | 재사용할 적용 경험의 선별, 피드백 작성과 전송 안내 |
+| [`FEEDBACK.md`](FEEDBACK.md) | 적용·장기 운영 경험의 조사, 피드백 작성과 전송 안내 |
 | [`okf/`](okf/index.md) | OKF에 대한 이해, 운영 철학, 재사용 패턴과 개념 관계 |
 | [`facets/`](facets/README.md) | 대상의 성질에서 중요한 판단을 찾는 얇은 관점 |
 | [`templates/`](templates/README.md) | 프로젝트에 복사한 뒤 문맥에 맞게 고치는 최소 뼈대 |
-| [`versions/`](versions/README.md) | 기준 OKF 버전, 영향 분석, 마이그레이션 기록 |
+| [`versions/`](versions/README.md) | 기준 OKF 버전, lab 릴리스와 실제 참고 기준, 마이그레이션 기록 |
 | [`experiments/`](experiments/README.md) | 가설과 검증 중인 방법 |
 | [`notes/`](notes/README.md) | 아직 정리되지 않은 관찰과 고찰 |
 
@@ -71,9 +71,15 @@ facet은 preset이나 기본값이 아니라 판단 렌즈입니다. 템플릿 �
 
 채택한 판단 근거는 `okf/`에 두고, `facets/`는 관련 판단을 찾는 탐색 관점, `templates/`는 선택 가능한 적용 뼈대로 둡니다. `notes/`와 `experiments/`는 연구 자료이며 미채택 내용은 기본 적용 근거로 삼지 않습니다. 실제 운영에서 얻은 관찰은 이곳에 남기고, 재사용할 만한 결론을 관련 개념과 적용 자료에 반영합니다.
 
-적용 중 발견한 가이드의 한계나 재사용할 개선은 [피드백](FEEDBACK.md)으로 돌아올 수 있습니다. 에이전트가 맥락을 일반화해 초안을 만들 수 있으며, 평범한 적용에서는 별도 보고를 요구하지 않습니다.
+적용 중 발견한 가이드의 한계나 재사용할 개선은 [피드백](FEEDBACK.md)으로 돌아올 수 있습니다. 실제 사용 후에는 대상 저장소에서 다음처럼 요청할 수 있습니다.
+
+> https://github.com/muffinbox/okf-lab-kr 피드백해줘.
+
+에이전트는 대상 저장소와 필요한 이력, 참고한 가이드를 살펴 공유 가능한 초안을 만듭니다. 조사와 작성은 [피드백 안내](FEEDBACK.md)에서 시작하며, 외부 전송은 사용자가 맡긴 범위에서 수행합니다. 평범한 적용마다 별도 보고를 요구하지 않습니다.
 
 ## 현재 기준
 
 - 권장 기준: **OKF v0.2**
 - 확인일과 검증한 명세 기준점: [`versions/current.md`](versions/current.md)
+
+공개판의 `main`은 최신 채택 내용이며, 릴리스는 비교·재현을 위한 고정 기준점입니다. lab 릴리스는 `okf-<명세 버전>-lab-<순번>`으로 구분합니다. 이름의 의미와 실제 적용 커밋을 남기는 방법은 [버전 안내](versions/README.md)에 있습니다.
