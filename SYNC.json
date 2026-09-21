@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "locale": "ko",
-  "source_commit": "22f4ba53d05ec028da64b8443981f2fdba970d42",
+  "source_commit": "1d76a40fff56c8158ea2e50364d5e4a031e4532d",
   "manifest_sha256": "b539311176273f9e211af1601ae840c945d2f7cf590bc6d42ab853ed6eafb9a3",
-  "reviewed_at": "2026-09-21T05:34:39.3312815Z",
+  "reviewed_at": "2026-09-21T06:11:47.3934837Z",
   "files": [
     {
       "path": "AGENTS.md",
@@ -67,8 +67,8 @@
     },
     {
       "path": "okf/facet-boundaries.md",
-      "source_sha256": "e70f7fcd06c73835ab14b8a94affd7e914e57c90efd38143eda287c6fa4ee4e5",
-      "target_sha256": "e70f7fcd06c73835ab14b8a94affd7e914e57c90efd38143eda287c6fa4ee4e5"
+      "source_sha256": "14e5ae13da2c582ed55228eca3a774b6f46bf4a2f00ae570b10224437c817493",
+      "target_sha256": "14e5ae13da2c582ed55228eca3a774b6f46bf4a2f00ae570b10224437c817493"
     },
     {
       "path": "okf/large-corpus.md",
@@ -82,13 +82,13 @@
     },
     {
       "path": "okf/feedback.md",
-      "source_sha256": "bb503c2e5a661022f6f28d4c29176277d92451f1f64c248d5dba2c7d85fc3079",
-      "target_sha256": "bb503c2e5a661022f6f28d4c29176277d92451f1f64c248d5dba2c7d85fc3079"
+      "source_sha256": "6df0c684c99d9f3f1a8b1f66a3b4ecb04404d2519c18cf62489cf0fda5f94287",
+      "target_sha256": "6df0c684c99d9f3f1a8b1f66a3b4ecb04404d2519c18cf62489cf0fda5f94287"
     },
     {
       "path": "okf/distribution.md",
-      "source_sha256": "31023e1d930fc9c9c341e678581ba97e45772919d39ab23ecf68c902d87d90cc",
-      "target_sha256": "31023e1d930fc9c9c341e678581ba97e45772919d39ab23ecf68c902d87d90cc"
+      "source_sha256": "ecf977c7e5a4223272a5f79e9d0ffc4149e134d62e0599d580e6c93a1b9323c1",
+      "target_sha256": "ecf977c7e5a4223272a5f79e9d0ffc4149e134d62e0599d580e6c93a1b9323c1"
     },
     {
       "path": "facets/README.md",
