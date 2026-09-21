@@ -1,6 +1,6 @@
 # Personal context experiment
 
-이 파일은 `personal-context` 연구를 위한 임시 지침이다. 확정된 okf-lab 원칙이나 배포용 template이 아니다.
+이 파일은 `personal-context` 연구를 위한 임시 지침이다. 확정된 okf-method 원칙이나 배포용 template이 아니다.
 
 ## OKF 지식 운영
 
