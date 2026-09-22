@@ -14,7 +14,7 @@ Mekra Method는 AI 에이전트가 프로젝트의 맥락을 이해하고 이어
 
 에이전트는 기존 자료와 구조를 살펴 어떤 지식을 정리하고 연결할지 판단합니다. 필요한 내용을 반영한 뒤에는 새 자료와 변경을 어디에, 어떻게 반영할지도 안내합니다.
 
-[**Mekra Method 소개**](INTRODUCTION.md) — 처음 접하는 사람을 위해 문제의식과 작동 방식을 설명합니다. 실제 적용은 [적용 안내](APPLICATION.md)에서 시작합니다.
+[**Mekra Method 소개**](INTRODUCTION.md) — 이름과 기원, 슬로건, 핵심 아이디어와 원칙을 소개합니다. 실제 적용은 [적용 안내](APPLICATION.md)에서 시작합니다.
 
 ## 핵심 관점
 
@@ -57,7 +57,7 @@ Mekra Method는 현재 Open Knowledge Format(OKF)을 기반으로 하며, 기존
 
 | 위치 | 역할 |
 | --- | --- |
-| [`INTRODUCTION.md`](INTRODUCTION.md) | 처음 접하는 사람을 위한 문제의식·작동 방식·설명용 사례 |
+| [`INTRODUCTION.md`](INTRODUCTION.md) | Mekra의 이름·기원·슬로건·핵심 아이디어·설계 선택 |
 | [`APPLICATION.md`](APPLICATION.md) | 대상 탐색, 적용 판단과 문답, 반영 및 완료 후 사용 안내 |
 | [`FEEDBACK.md`](FEEDBACK.md) | 적용·장기 운영 경험의 조사, 피드백 작성과 전송 안내 |
 | [`okf/`](okf/index.md) | OKF에 대한 이해, 운영 철학, 재사용 패턴과 개념 관계 |
