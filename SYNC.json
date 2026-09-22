@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "locale": "ko",
-  "source_commit": "22e40f4b14293459638d5ac29dc9eb723f8097e1",
-  "manifest_sha256": "5677c6cd7dfc9017fd90200d60eacdcfd4892c56c19c07abe5f27b1acb092ec7",
-  "reviewed_at": "2026-09-22T05:04:49.0107166Z",
+  "source_commit": "e631e9930474ef3c708d7ade0741c95a633f82a9",
+  "manifest_sha256": "0933c25eb606f8cf65d628c27895427ae8d31b07fcb95e609f31c9c77c6221fa",
+  "reviewed_at": "2026-09-22T05:14:12.2878599Z",
   "files": [
     {
       "path": "AGENTS.md",
@@ -17,8 +17,8 @@
     },
     {
       "path": "INTRODUCTION.md",
-      "source_sha256": "6be74d4d6183d6e9046c82949642d90b3db04fd94310a46ed19b7058f9373db3",
-      "target_sha256": "6be74d4d6183d6e9046c82949642d90b3db04fd94310a46ed19b7058f9373db3"
+      "source_sha256": "500c9a7278b7ba4feb77b4ae55b1a38d2b2845f004cf3aa6aedfb474bcee330f",
+      "target_sha256": "500c9a7278b7ba4feb77b4ae55b1a38d2b2845f004cf3aa6aedfb474bcee330f"
     },
     {
       "path": "APPLICATION.md",
