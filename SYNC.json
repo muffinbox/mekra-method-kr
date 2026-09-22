@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "locale": "ko",
-  "source_commit": "985c79644ae769feb910fa3d617cee871eb0b475",
-  "manifest_sha256": "8ac2d52f61427c27e2c4a55daf0d8e14192911757ab6e77b0a944664cabe55d4",
-  "reviewed_at": "2026-09-22T04:37:48.5054261Z",
+  "source_commit": "22e40f4b14293459638d5ac29dc9eb723f8097e1",
+  "manifest_sha256": "5677c6cd7dfc9017fd90200d60eacdcfd4892c56c19c07abe5f27b1acb092ec7",
+  "reviewed_at": "2026-09-22T05:04:49.0107166Z",
   "files": [
     {
       "path": "AGENTS.md",
@@ -17,8 +17,8 @@
     },
     {
       "path": "INTRODUCTION.md",
-      "source_sha256": "0999572914d88b9fb0a67797700ff19c8d1fe94b44d16576cfbc3cd7327d5d0c",
-      "target_sha256": "0999572914d88b9fb0a67797700ff19c8d1fe94b44d16576cfbc3cd7327d5d0c"
+      "source_sha256": "6be74d4d6183d6e9046c82949642d90b3db04fd94310a46ed19b7058f9373db3",
+      "target_sha256": "6be74d4d6183d6e9046c82949642d90b3db04fd94310a46ed19b7058f9373db3"
     },
     {
       "path": "APPLICATION.md",
@@ -62,8 +62,8 @@
     },
     {
       "path": "okf/external-sources.md",
-      "source_sha256": "f9d1ccb27b4928afdbf895eead5bea1d97caf5acd6ad11e39a7687656c9b6835",
-      "target_sha256": "f9d1ccb27b4928afdbf895eead5bea1d97caf5acd6ad11e39a7687656c9b6835"
+      "source_sha256": "e1111f95e233099d48471baaa74154e3a3a703ed39f6a8b2ab19d9f9fa645a26",
+      "target_sha256": "e1111f95e233099d48471baaa74154e3a3a703ed39f6a8b2ab19d9f9fa645a26"
     },
     {
       "path": "okf/disclosure-boundary.md",
@@ -72,13 +72,13 @@
     },
     {
       "path": "okf/facet-boundaries.md",
-      "source_sha256": "14e5ae13da2c582ed55228eca3a774b6f46bf4a2f00ae570b10224437c817493",
-      "target_sha256": "14e5ae13da2c582ed55228eca3a774b6f46bf4a2f00ae570b10224437c817493"
+      "source_sha256": "4bd720cdf4f5b67760ffe9b515e006307856eeca14b99941428ae1a0a5fdbf0c",
+      "target_sha256": "4bd720cdf4f5b67760ffe9b515e006307856eeca14b99941428ae1a0a5fdbf0c"
     },
     {
       "path": "okf/large-corpus.md",
-      "source_sha256": "77395967f425b7b6102978784a56e82a066fd9681b5a0b81604c1bc6005a6380",
-      "target_sha256": "77395967f425b7b6102978784a56e82a066fd9681b5a0b81604c1bc6005a6380"
+      "source_sha256": "6774d915cfbd3dcadcd8e791687bd2e38293cf16178ad89b2024323588ea556b",
+      "target_sha256": "6774d915cfbd3dcadcd8e791687bd2e38293cf16178ad89b2024323588ea556b"
     },
     {
       "path": "okf/adoption.md",
@@ -112,8 +112,8 @@
     },
     {
       "path": "facets/large-corpus.md",
-      "source_sha256": "775dec62abd34c0ff5c1d809a4b2a3309ade04f7cb397d7981c261848b118b7f",
-      "target_sha256": "775dec62abd34c0ff5c1d809a4b2a3309ade04f7cb397d7981c261848b118b7f"
+      "source_sha256": "36f465da07032a8e27dbf515068c4044589e068233fa931a81ecf5980378a027",
+      "target_sha256": "36f465da07032a8e27dbf515068c4044589e068233fa931a81ecf5980378a027"
     },
     {
       "path": "facets/personal-context.md",
@@ -162,8 +162,8 @@
     },
     {
       "path": "notes/README.md",
-      "source_sha256": "dc208c153ec12370409ee4d391f9f56201e8f985920aee38ca19f8aee8dfba9b",
-      "target_sha256": "dc208c153ec12370409ee4d391f9f56201e8f985920aee38ca19f8aee8dfba9b"
+      "source_sha256": "b23fd2858eac6cdf040c6d01e15fe47527473d737abb642d059bb4544cbe9654",
+      "target_sha256": "b23fd2858eac6cdf040c6d01e15fe47527473d737abb642d059bb4544cbe9654"
     },
     {
       "path": "notes/personal-context-knowledge-properties.md",
@@ -174,6 +174,11 @@
       "path": "notes/facet-perspectives.md",
       "source_sha256": "0e14bca09fea635bbab5b8ce33f29bf99e3f07772d2789ba44bd492301a196a5",
       "target_sha256": "0e14bca09fea635bbab5b8ce33f29bf99e3f07772d2789ba44bd492301a196a5"
+    },
+    {
+      "path": "notes/corpus-connection-strategies.md",
+      "source_sha256": "713c36ce3b6b0b731b95c59aa93c5fe1480e28ca82b18e6ccb6f53a8bae1ea2a",
+      "target_sha256": "713c36ce3b6b0b731b95c59aa93c5fe1480e28ca82b18e6ccb6f53a8bae1ea2a"
     },
     {
       "path": "experiments/README.md",
