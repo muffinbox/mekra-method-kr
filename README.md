@@ -2,57 +2,31 @@
 
 *Knowledge finds its place.*
 
-AI를 위한 지식·맥락 운영 방법론입니다. 현재 Open Knowledge Format(OKF)을 기반으로 하며, 기존 OKF Method에서 이름을 바꾸어 이어갑니다. 이 저장소는 채택한 원칙과 판단 지침을 제공하는 한국어 공개판입니다.
+Mekra Method는 AI 에이전트가 프로젝트의 맥락을 이해하고 이어서 일할 수 있도록 지식을 정리하고 유지하는 방법론입니다.
 
-OKF는 사람과 에이전트가 함께 읽고 교환할 수 있도록 지식을 표현하는 형식입니다. Mekra는 한국어 ‘맥락’에서 영감을 받은 이름입니다.
+매번 같은 배경을 설명하거나, 한 결정이 다른 작업에 미치는 영향을 다시 찾아야 한다면 그 이유와 관계를 관련 지식에 남길 수 있습니다. 판단에 필요한 지식과 맥락을 갖추고, 구체적인 작업 방식은 가능한 한 에이전트에게 맡깁니다.
 
-> English version: [muffinbox/mekra-method](https://github.com/muffinbox/mekra-method)
+## 시작하기
 
-> 예시와 적용 맥락은 특정 개인·조직을 식별하지 않도록 일반화해 서술합니다.
+적용할 저장소를 읽고 수정할 수 있는 에이전트에게 다음처럼 요청합니다.
 
-> 이 저장소는 OKF 명세의 복사본이나 모든 프로젝트가 따라야 할 프레임워크가 아닙니다.  
-> 공식 형식의 정본은 [GoogleCloudPlatform/open-knowledge-format](https://github.com/GoogleCloudPlatform/open-knowledge-format)입니다.
+> https://github.com/muffinbox/mekra-method-kr 를 이 저장소에 적용해줘.
+
+에이전트는 기존 자료와 구조를 살펴 어떤 지식을 정리하고 연결할지 판단합니다. 필요한 내용을 반영한 뒤에는 새 자료와 변경을 어디에, 어떻게 반영할지도 안내합니다.
+
+[**Mekra Method 소개**](INTRODUCTION.md) — 처음 접하는 사람을 위해 문제의식과 작동 방식을 설명합니다. 실제 적용은 [적용 안내](APPLICATION.md)에서 시작합니다.
 
 ## 핵심 관점
 
 **정본을 명확히 하고, 맥락을 나누고, 판단을 맡깁니다.**
 
-Mekra Method는 **정의와 변경 책임은 명확한 정본에 집중하고, 이해에 필요한 맥락은 관련 개념에 분산하는** 지식망을 지향합니다.
+사실을 정의하고 바꾸는 기준은 명확히 두고, 관련 개념에는 그 사실이 자신의 의미·조건·판단에 미치는 영향을 필요한 만큼 재서술합니다. 같은 사실의 반복보다 여러 문서가 그 사실을 독립적으로 정의하고 변경하는 상태를 피합니다. 기준이 바뀌면 관련 설명도 함께 검토합니다.
 
-정본은 사실과 규칙의 기준을 잡고 서로 다른 문서가 같은 사실을 독립적으로 소유하지 않게 합니다. 동시에 정본의 단일화가 맥락의 단일화를 뜻하지는 않습니다. 같은 사실이 여러 개념에 영향을 준다면 각 개념에는 그 사실이 자신의 의미·조건·예외와 판단에 어떤 영향을 주는지 필요한 만큼 재서술합니다. 반대로 맥락을 분산한다는 이유로 사실의 변경 책임까지 여러 곳으로 나누지는 않습니다.
+Mekra는 세부 작업 순서를 미리 지정하기보다 판단 근거가 되는 지식을 구성하고 유지하는 데 우선순위를 둡니다. 에이전트는 실제로 읽은 근거와 맥락을 바탕으로 목적과 상황에 맞는 작업 방식을 판단합니다.
 
-따라서 피해야 하는 것은 같은 사실의 반복이 아니라 여러 곳이 같은 사실을 독립적으로 정의하고 변경하는 상태입니다. 링크도 단순한 주소보다 주변의 자연어로 관계의 이유와 영향을 전달합니다. 지식이나 구현이 바뀌면 정본을 기준으로 삼되, 의미가 달라지는 관련 개념의 맥락도 함께 갱신합니다.
-
-Mekra는 세부 작업 순서를 미리 지정하기보다, 에이전트가 판단할 근거가 되는 지식을 구성하고 유지하는 데 우선순위를 둡니다. 에이전트는 그 근거와 맥락을 읽고 목적과 상황에 맞는 작업 방식을 [자율적으로 판단](okf/agent-autonomy.md)합니다.
-
-이 균형 속에서 도메인은 하나의 완결된 문서가 아니라, 중심을 잡는 정본과 서로의 의미를 품는 문서들의 중첩과 관계에 내재화됩니다. 자세한 판단 근거는 [운영 원칙](okf/operating-principles.md), [정본과 맥락](okf/source-of-truth.md), [지식 내재화](okf/knowledge-internalization.md), [맥락 파급](okf/context-propagation.md)에 있습니다.
-
-## 하는 일
-
-- upstream 버전 변화와 마이그레이션 영향을 추적합니다.
-- 채택한 운영 원칙과 재사용 가능한 패턴을 축적합니다.
-- 대상의 중요한 성질을 읽는 [facet](facets/README.md)을 얇은 탐색 관점으로 제공합니다.
-- 실제 프로젝트에 복사해 조정할 수 있는 최소 템플릿을 제공합니다.
-- 아직 검증되지 않은 생각과 실험을 확정된 지침과 분리합니다.
-
-## 구조
-
-| 위치 | 역할 |
-| --- | --- |
-| [`APPLICATION.md`](APPLICATION.md) | 대상 탐색, 적용 판단과 문답, 반영 및 완료 후 사용 안내 |
-| [`FEEDBACK.md`](FEEDBACK.md) | 적용·장기 운영 경험의 조사, 피드백 작성과 전송 안내 |
-| [`okf/`](okf/index.md) | OKF에 대한 이해, 운영 철학, 재사용 패턴과 개념 관계 |
-| [`facets/`](facets/README.md) | 대상의 성질에서 중요한 판단을 찾는 얇은 관점 |
-| [`templates/`](templates/README.md) | 프로젝트에 복사한 뒤 문맥에 맞게 고치는 최소 뼈대 |
-| [`versions/`](versions/README.md) | 기준 OKF 버전, Mekra Method 릴리스와 실제 참고 기준, 마이그레이션 기록 |
-| [`experiments/`](experiments/README.md) | 가설과 검증 중인 방법 |
-| [`notes/`](notes/README.md) | 아직 정리되지 않은 관찰과 고찰 |
+판단의 근거는 [정본과 맥락](okf/source-of-truth.md), [지식 내재화](okf/knowledge-internalization.md), [맥락 파급](okf/context-propagation.md), [에이전트의 자율 판단](okf/agent-autonomy.md), [운영 원칙](okf/operating-principles.md)에 있습니다.
 
 ## 사용하는 법
-
-적용할 저장소에서 에이전트에게 다음처럼 요청합니다.
-
-> https://github.com/muffinbox/mekra-method-kr 를 적용해줘.
 
 원하는 작업을 더 구체적으로 표현할 수도 있습니다. 다음은 같은 URL과 함께 사용할 수 있는 요청 예시입니다.
 
@@ -70,6 +44,28 @@ Mekra는 세부 작업 순서를 미리 지정하기보다, 에이전트가 판�
 대상에서 알 수 있는 사항은 자율적으로 판단하고, 결과를 바꾸는 사용자 의도가 불명확할 때 필요한 질문을 합니다. 권장 방식으로 판단을 맡기거나 주요 선택을 함께 결정할 수 있으며, 완료 후에는 새 원자료와 지식의 투입 위치 및 반영 방법을 안내합니다.
 
 facet은 preset이나 기본값이 아니라 판단 렌즈입니다. 템플릿 역시 필요한 경우 조정해서 쓰는 출발점입니다. 적합성은 파일 수나 구조 일치 여부가 아니라, 지식이 올바른 맥락에서 이해되고 변경의 영향이 필요한 곳에 반영되는지로 판단합니다.
+
+## OKF와의 관계
+
+Mekra Method는 현재 Open Knowledge Format(OKF)을 기반으로 하며, 기존 OKF Method의 지식과 이력을 이어갑니다. OKF는 사람과 에이전트가 함께 읽고 교환할 수 있도록 지식을 표현하는 형식입니다. 이 저장소는 채택한 원칙과 판단 지침을 제공하는 한국어 공개판입니다.
+
+이 가이드는 명세의 복사본이나 모든 프로젝트가 따라야 할 프레임워크가 아닙니다. 공식 형식의 정본은 [GoogleCloudPlatform/open-knowledge-format](https://github.com/GoogleCloudPlatform/open-knowledge-format)입니다.
+
+글로벌 영문판: [muffinbox/mekra-method](https://github.com/muffinbox/mekra-method). 예시와 적용 맥락은 특정 개인·조직을 식별하지 않도록 일반화해 서술합니다.
+
+## 구조
+
+| 위치 | 역할 |
+| --- | --- |
+| [`INTRODUCTION.md`](INTRODUCTION.md) | 처음 접하는 사람을 위한 문제의식·작동 방식·설명용 사례 |
+| [`APPLICATION.md`](APPLICATION.md) | 대상 탐색, 적용 판단과 문답, 반영 및 완료 후 사용 안내 |
+| [`FEEDBACK.md`](FEEDBACK.md) | 적용·장기 운영 경험의 조사, 피드백 작성과 전송 안내 |
+| [`okf/`](okf/index.md) | OKF에 대한 이해, 운영 철학, 재사용 패턴과 개념 관계 |
+| [`facets/`](facets/README.md) | 대상의 성질에서 중요한 판단을 찾는 얇은 관점 |
+| [`templates/`](templates/README.md) | 프로젝트에 복사한 뒤 문맥에 맞게 고치는 최소 뼈대 |
+| [`versions/`](versions/README.md) | 기준 OKF 버전, Mekra Method 릴리스와 실제 참고 기준, 마이그레이션 기록 |
+| [`experiments/`](experiments/README.md) | 가설과 검증 중인 방법 |
+| [`notes/`](notes/README.md) | 아직 정리되지 않은 관찰과 고찰 |
 
 ## 연구와 적용 지식
 
