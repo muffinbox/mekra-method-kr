@@ -2,7 +2,9 @@
 okf_version: "0.2"
 ---
 
-# OKF 연구·활용 지식
+# Mekra Method의 운영 지식
+
+Mekra Method는 OKF를 활용하는 과정에서 발전한 지식 운영 방법론이다. 현재 OKF를 기반으로 하며, 운영 판단은 OKF 공식 명세의 요구와 구분된다.
 
 OKF(Open Knowledge Format)는 사람과 에이전트가 함께 읽고 교환할 수 있도록 지식을 표현하는 형식이다. 개념을 YAML 메타데이터와 Markdown 본문으로 기록하고, Markdown 링크로 관계를 연결해 디렉터리 형태의 지식 번들을 구성한다.
 

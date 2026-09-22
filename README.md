@@ -1,10 +1,12 @@
-# okf-method-kr
+# Mekra Method
 
-OKF(Open Knowledge Format)는 사람과 에이전트가 함께 읽고 교환할 수 있도록 지식을 표현하는 형식입니다.
+*Knowledge finds its place.*
 
-OKF Method는 에이전트가 기존 프로젝트의 지식을 OKF로 정리하고 지속적으로 관리하도록 돕는 적용·운영 방법론입니다. 이 저장소는 연구에서 채택한 원칙과 판단 지침을 제공하는 한국어 공개 저장소입니다.
+AI를 위한 지식·맥락 운영 방법론입니다. 현재 Open Knowledge Format(OKF)을 기반으로 하며, 기존 OKF Method에서 이름을 바꾸어 이어갑니다. 이 저장소는 채택한 원칙과 판단 지침을 제공하는 한국어 공개판입니다.
 
-> English version: [muffinbox/okf-method](https://github.com/muffinbox/okf-method)
+OKF는 사람과 에이전트가 함께 읽고 교환할 수 있도록 지식을 표현하는 형식입니다. Mekra는 한국어 ‘맥락’에서 영감을 받은 이름입니다.
+
+> English version: [muffinbox/mekra-method](https://github.com/muffinbox/mekra-method)
 
 > 예시와 적용 맥락은 특정 개인·조직을 식별하지 않도록 일반화해 서술합니다.
 
@@ -13,11 +15,15 @@ OKF Method는 에이전트가 기존 프로젝트의 지식을 OKF로 정리하�
 
 ## 핵심 관점
 
-okf-method는 **정의와 변경 책임은 명확한 정본에 집중하고, 이해에 필요한 맥락은 관련 개념에 분산하는** 지식망을 지향합니다.
+**정본을 명확히 하고, 맥락을 나누고, 판단을 맡깁니다.**
+
+Mekra Method는 **정의와 변경 책임은 명확한 정본에 집중하고, 이해에 필요한 맥락은 관련 개념에 분산하는** 지식망을 지향합니다.
 
 정본은 사실과 규칙의 기준을 잡고 서로 다른 문서가 같은 사실을 독립적으로 소유하지 않게 합니다. 동시에 정본의 단일화가 맥락의 단일화를 뜻하지는 않습니다. 같은 사실이 여러 개념에 영향을 준다면 각 개념에는 그 사실이 자신의 의미·조건·예외와 판단에 어떤 영향을 주는지 필요한 만큼 재서술합니다. 반대로 맥락을 분산한다는 이유로 사실의 변경 책임까지 여러 곳으로 나누지는 않습니다.
 
 따라서 피해야 하는 것은 같은 사실의 반복이 아니라 여러 곳이 같은 사실을 독립적으로 정의하고 변경하는 상태입니다. 링크도 단순한 주소보다 주변의 자연어로 관계의 이유와 영향을 전달합니다. 지식이나 구현이 바뀌면 정본을 기준으로 삼되, 의미가 달라지는 관련 개념의 맥락도 함께 갱신합니다.
+
+Mekra는 세부 작업 순서를 미리 지정하기보다, 에이전트가 판단할 근거가 되는 지식을 구성하고 유지하는 데 우선순위를 둡니다. 에이전트는 그 근거와 맥락을 읽고 목적과 상황에 맞는 작업 방식을 [자율적으로 판단](okf/agent-autonomy.md)합니다.
 
 이 균형 속에서 도메인은 하나의 완결된 문서가 아니라, 중심을 잡는 정본과 서로의 의미를 품는 문서들의 중첩과 관계에 내재화됩니다. 자세한 판단 근거는 [운영 원칙](okf/operating-principles.md), [정본과 맥락](okf/source-of-truth.md), [지식 내재화](okf/knowledge-internalization.md), [맥락 파급](okf/context-propagation.md)에 있습니다.
 
@@ -38,7 +44,7 @@ okf-method는 **정의와 변경 책임은 명확한 정본에 집중하고, 이
 | [`okf/`](okf/index.md) | OKF에 대한 이해, 운영 철학, 재사용 패턴과 개념 관계 |
 | [`facets/`](facets/README.md) | 대상의 성질에서 중요한 판단을 찾는 얇은 관점 |
 | [`templates/`](templates/README.md) | 프로젝트에 복사한 뒤 문맥에 맞게 고치는 최소 뼈대 |
-| [`versions/`](versions/README.md) | 기준 OKF 버전, OKF Method 릴리스와 실제 참고 기준, 마이그레이션 기록 |
+| [`versions/`](versions/README.md) | 기준 OKF 버전, Mekra Method 릴리스와 실제 참고 기준, 마이그레이션 기록 |
 | [`experiments/`](experiments/README.md) | 가설과 검증 중인 방법 |
 | [`notes/`](notes/README.md) | 아직 정리되지 않은 관찰과 고찰 |
 
@@ -46,14 +52,14 @@ okf-method는 **정의와 변경 책임은 명확한 정본에 집중하고, 이
 
 적용할 저장소에서 에이전트에게 다음처럼 요청합니다.
 
-> https://github.com/muffinbox/okf-method-kr 를 적용해줘.
+> https://github.com/muffinbox/mekra-method-kr 를 적용해줘.
 
 원하는 작업을 더 구체적으로 표현할 수도 있습니다. 다음은 같은 URL과 함께 사용할 수 있는 요청 예시입니다.
 
 | 요청 예시 | 주된 의도 |
 | --- | --- |
 | 이 repo에 OKF를 구축해줘. / 이 repo를 OKF화해줘. | 현재 자료를 살펴 필요한 구조와 지식망 구축 |
-| 기존 OKF를 okf-method 방식으로 마이그레이션해줘. / 최신 okf-method 기준으로 맞춰줘. | 기존 지식을 보존하며 운영 방식 갱신 |
+| 기존 OKF를 Mekra Method 방식으로 마이그레이션해줘. / 최신 Mekra Method 기준으로 맞춰줘. | 기존 지식을 보존하며 운영 방식 갱신 |
 | 이 repo를 지식 중심 저장소에 맞게 정리해줘. | 지식이 주된 산출물인 특성을 고려해 운영 방식 판단 |
 | OKF 버전을 올려줘. | 공식 명세 변경의 영향과 전환 필요성 판단 |
 | 현재 OKF를 점검해줘. | 현재 구성과 지식의 적절성 진단 |
@@ -67,7 +73,7 @@ facet은 preset이나 기본값이 아니라 판단 렌즈입니다. 템플릿 �
 
 ## 연구와 적용 지식
 
-이 저장소는 한국어 배포판입니다. 연구개발 공간에서 채택한 공개 가능한 지식을 제공하며, 같은 지식의 [글로벌 영문판](https://github.com/muffinbox/okf-method)도 배포합니다. 피드백은 사용자가 참고한 배포판에서 받고, 사례의 연구·검증은 연구개발 공간에서 이어갑니다.
+이 저장소는 한국어 배포판입니다. 연구개발 공간에서 채택한 공개 가능한 지식을 제공하며, 같은 지식의 [글로벌 영문판](https://github.com/muffinbox/mekra-method)도 배포합니다. 피드백은 사용자가 참고한 배포판에서 받고, 사례의 연구·검증은 연구개발 공간에서 이어갑니다.
 
 [공개 범위와 언어별 책임](okf/distribution.md)에 따라 배포판을 갱신합니다. 마지막으로 검토한 원본과 배포 파일의 기준점은 [동기화 기록](SYNC.json)에 남깁니다.
 
@@ -75,7 +81,7 @@ facet은 preset이나 기본값이 아니라 판단 렌즈입니다. 템플릿 �
 
 적용 중 발견한 가이드의 한계나 재사용할 개선은 [피드백](FEEDBACK.md)으로 돌아올 수 있습니다. 실제 사용 후에는 대상 저장소에서 다음처럼 요청할 수 있습니다.
 
-> `이 저장소에서의 okf-method 사용 경험을 https://github.com/muffinbox/okf-method-kr 기준으로 피드백해줘.`
+> `이 저장소에서의 Mekra Method 사용 경험을 https://github.com/muffinbox/mekra-method-kr 기준으로 피드백해줘.`
 
 에이전트는 대상 저장소와 필요한 이력, 참고한 가이드를 살펴 공유 가능한 초안을 만듭니다. 조사와 작성은 [피드백 안내](FEEDBACK.md)에서 시작하며, 외부 전송은 사용자가 맡긴 범위에서 수행합니다. 평범한 적용마다 별도 보고를 요구하지 않습니다.
 
@@ -84,8 +90,8 @@ facet은 preset이나 기본값이 아니라 판단 렌즈입니다. 템플릿 �
 - 권장 기준: **OKF v0.2**
 - 확인일과 검증한 명세 기준점: [`versions/current.md`](versions/current.md)
 
-공개판의 `main`은 최신 채택 내용이며, 릴리스는 비교·재현을 위한 고정 기준점입니다. OKF Method 릴리스는 `okf-<명세 버전>-method-<순번>`으로 구분합니다. 이름의 의미와 실제 적용 커밋을 남기는 방법은 [버전 안내](versions/README.md)에 있습니다.
+공개판의 `main`은 최신 채택 내용이며, 릴리스는 비교·재현을 위한 고정 기준점입니다. Mekra Method 릴리스는 `okf-<명세 버전>-method-<순번>`으로 구분합니다. 이름의 의미와 실제 적용 커밋을 남기는 방법은 [버전 안내](versions/README.md)에 있습니다.
 
 ## 라이선스
 
-별도 표시가 없는 파일은 [Apache-2.0](LICENSE)을 따릅니다. `templates/` 전체는 README를 포함해 [CC0-1.0](templates/LICENSE)으로 제공하며, 복사·수정한 템플릿에 okf-method 출처를 남길 의무는 없습니다. 자세한 범위는 [배포 원칙](okf/distribution.md#라이선스-범위)에 있습니다.
+별도 표시가 없는 파일은 [Apache-2.0](LICENSE)을 따릅니다. `templates/` 전체는 README를 포함해 [CC0-1.0](templates/LICENSE)으로 제공하며, 복사·수정한 템플릿에 Mekra Method 출처를 남길 의무는 없습니다. 자세한 범위는 [배포 원칙](okf/distribution.md#라이선스-범위)에 있습니다.
