@@ -10,7 +10,7 @@ Mekra Method는 AI 에이전트가 프로젝트의 맥락을 이해하고 이어
 
 적용할 저장소를 읽고 수정할 수 있는 에이전트에게 다음처럼 요청합니다.
 
-> https://github.com/muffinbox/mekra-method-kr 를 이 저장소에 적용해줘.
+> https://github.com/mekra-lab/mekra-method-kr 를 이 저장소에 적용해줘.
 
 에이전트는 기존 자료와 구조를 살펴 어떤 지식을 정리하고 연결할지 판단합니다. 필요한 내용을 반영한 뒤에는 새 자료와 변경을 어디에, 어떻게 반영할지도 안내합니다.
 
@@ -51,7 +51,7 @@ Mekra Method는 현재 Open Knowledge Format(OKF)을 기반으로 하며, 기존
 
 이 가이드는 명세의 복사본이나 모든 프로젝트가 따라야 할 프레임워크가 아닙니다. 공식 형식의 정본은 [GoogleCloudPlatform/open-knowledge-format](https://github.com/GoogleCloudPlatform/open-knowledge-format)입니다.
 
-글로벌 영문판: [muffinbox/mekra-method](https://github.com/muffinbox/mekra-method). 예시와 적용 맥락은 특정 개인·조직을 식별하지 않도록 일반화해 서술합니다.
+글로벌 영문판: [mekra-lab/mekra-method](https://github.com/mekra-lab/mekra-method). 예시와 적용 맥락은 특정 개인·조직을 식별하지 않도록 일반화해 서술합니다.
 
 ## 구조
 
@@ -69,7 +69,7 @@ Mekra Method는 현재 Open Knowledge Format(OKF)을 기반으로 하며, 기존
 
 ## 연구와 적용 지식
 
-이 저장소는 한국어 배포판입니다. 연구개발 공간에서 채택한 공개 가능한 지식을 제공하며, 같은 지식의 [글로벌 영문판](https://github.com/muffinbox/mekra-method)도 배포합니다. 피드백은 사용자가 참고한 배포판에서 받고, 사례의 연구·검증은 연구개발 공간에서 이어갑니다.
+이 저장소는 한국어 배포판입니다. 연구개발 공간에서 채택한 공개 가능한 지식을 제공하며, 같은 지식의 [글로벌 영문판](https://github.com/mekra-lab/mekra-method)도 배포합니다. 피드백은 사용자가 참고한 배포판에서 받고, 사례의 연구·검증은 연구개발 공간에서 이어갑니다.
 
 [공개 범위와 언어별 책임](okf/distribution.md)에 따라 배포판을 갱신합니다. 마지막으로 검토한 원본과 배포 파일의 기준점은 [동기화 기록](SYNC.json)에 남깁니다.
 
@@ -77,9 +77,16 @@ Mekra Method는 현재 Open Knowledge Format(OKF)을 기반으로 하며, 기존
 
 적용 중 발견한 가이드의 한계나 재사용할 개선은 [피드백](FEEDBACK.md)으로 돌아올 수 있습니다. 실제 사용 후에는 대상 저장소에서 다음처럼 요청할 수 있습니다.
 
-> `이 저장소에서의 Mekra Method 사용 경험을 https://github.com/muffinbox/mekra-method-kr 기준으로 피드백해줘.`
+> `이 저장소에서의 Mekra Method 사용 경험을 https://github.com/mekra-lab/mekra-method-kr 기준으로 피드백해줘.`
 
 에이전트는 대상 저장소와 필요한 이력, 참고한 가이드를 살펴 공유 가능한 초안을 만듭니다. 조사와 작성은 [피드백 안내](FEEDBACK.md)에서 시작하며, 외부 전송은 사용자가 맡긴 범위에서 수행합니다. 평범한 적용마다 별도 보고를 요구하지 않습니다.
+
+## 운영과 연락처
+
+Mekra Method는 [Mekra Lab](https://github.com/mekra-lab)이 연구·개발·운영합니다.
+
+- 일반 문의와 협업 제안: [contact@mekralab.org](mailto:contact@mekralab.org)
+- 적용·사용 경험 피드백: [feedback@mekralab.org](mailto:feedback@mekralab.org). GitHub Issue와 전송 방법은 [피드백 안내](FEEDBACK.md)를 참고합니다.
 
 ## 현재 기준
 

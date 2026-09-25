@@ -16,7 +16,7 @@
 
 사용 중인 대상 저장소에서 에이전트에게 다음처럼 요청할 수 있습니다.
 
-> `이 저장소에서의 Mekra Method 사용 경험을 https://github.com/muffinbox/mekra-method-kr 기준으로 피드백해줘.`
+> `이 저장소에서의 Mekra Method 사용 경험을 https://github.com/mekra-lab/mekra-method-kr 기준으로 피드백해줘.`
 
 참고한 배포판의 URL이나 저장소 이름으로 요청하면 됩니다. 에이전트는 대상 저장소와 해당 가이드를 살펴, 실제 운영에서 가이드가 어떤 조건에서 도움이 됐거나 부족했는지 조사하고 공유 가능한 피드백 초안을 제시합니다. 조사 깊이와 구성은 목적과 자료에 맞게 정합니다. 이 요청만으로 외부 전송을 맡긴 것으로 해석하지 않으며, 이미 전송할 내용과 경로까지 위임받았다면 그 범위에서 이어갑니다.
 
@@ -45,12 +45,14 @@ Git 이력은 무엇이 바뀌었는지 보여 주지만 문서가 얼마나 읽
 
 | 참고한 배포판 | 피드백 접수처 |
 | --- | --- |
-| 한국어판 `mekra-method-kr` | [기존 이슈](https://github.com/muffinbox/mekra-method-kr/issues) · [새 이슈 작성](https://github.com/muffinbox/mekra-method-kr/issues/new) |
-| 글로벌 영문판 `mekra-method` | [기존 이슈](https://github.com/muffinbox/mekra-method/issues) · [새 이슈 작성](https://github.com/muffinbox/mekra-method/issues/new) |
+| 한국어판 `mekra-method-kr` | [기존 이슈](https://github.com/mekra-lab/mekra-method-kr/issues) · [새 이슈 작성](https://github.com/mekra-lab/mekra-method-kr/issues/new) |
+| 글로벌 영문판 `mekra-method` | [기존 이슈](https://github.com/mekra-lab/mekra-method/issues) · [새 이슈 작성](https://github.com/mekra-lab/mekra-method/issues/new) |
 
 두 배포판에 공통된 문제도 한 곳에 제보하면 됩니다. 이미 관련 논의가 있다면 그 이슈에 연결하고, 같은 내용을 양쪽에 중복 제출하거나 번역해 다시 제출하도록 요구하지 않습니다. 연구개발 저장소 `mekra-method-dev`의 접근 권한을 피드백 접수에 요구하지 않습니다.
 
-이메일은 한국어판과 영문판 모두 [muffinboxapps@gmail.com](mailto:muffinboxapps@gmail.com)으로 받습니다. 공개 이슈로 남기기 어렵거나 GitHub 전송이 불편할 때 사용할 수 있습니다. 에이전트가 제목과 본문을 준비하면 사용자가 평소 사용하는 메일에서 보낼 수 있습니다.
+이메일은 한국어판과 영문판 모두 [feedback@mekralab.org](mailto:feedback@mekralab.org)으로 받습니다. 공개 이슈로 남기기 어렵거나 GitHub 전송이 불편할 때 사용할 수 있습니다. 에이전트가 제목과 본문을 준비하면 사용자가 평소 사용하는 메일에서 보낼 수 있습니다.
+
+일반 문의와 협업 제안은 [contact@mekralab.org](mailto:contact@mekralab.org)으로 받습니다.
 
 전송할 때 사용 가능한 도구와 사용자의 선호에 맞춰 경로를 고릅니다. GitHub CLI 설치 여부만으로 전송 가능 여부를 판단하지 않으며, 인증된 도구나 브라우저를 사용할 수 있는지도 고려합니다. 피드백 때문에 새 도구 설치나 로그인을 요구하지 않습니다.
 
